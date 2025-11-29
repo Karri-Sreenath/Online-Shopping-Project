@@ -1,0 +1,22 @@
+.leftBlock {
+    border-right: 1px solid;
+    margin-right: 5px;
+    li {
+        list-style: none;
+        margin: 5px;
+    }
+}
+
+.productDetailsBlock {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.singleProduct {
+    margin: 5px;
+    img {
+        
+        height: 190px;
+    }
+}

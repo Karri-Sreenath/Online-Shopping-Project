@@ -1,0 +1,37 @@
+.signup-form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+label {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.error {
+    color: red;
+    font-size: 0.875rem;
+}
+.success {
+    color: green;
+    font-weight: bold;
+}
+button {
+    padding: 0.75rem;
+    background: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background: #005bb5;
+}

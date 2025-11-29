@@ -1,0 +1,21 @@
+.fullStar {
+
+}
+
+.ratingStarsContainer {
+    display: flex;
+    margin-bottom: 10px;
+    div {
+        background-image: url('./rating.PNG');
+
+        width: 20px;    
+        height: 20px;
+        background-size: cover;
+    }
+    .halfStar {
+        background-position: -83px 40px
+    }
+    .emptyStar {
+        background-position: -166px 20px;
+    }
+}
